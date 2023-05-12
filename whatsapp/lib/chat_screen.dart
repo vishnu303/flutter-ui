@@ -44,7 +44,7 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Contacts"),
+          title: const Text("Whatsapp"),
           backgroundColor: const Color(0xff075E54),
           actions: const [
             Icon(Icons.camera_alt),
