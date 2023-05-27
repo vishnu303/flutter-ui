@@ -18,7 +18,7 @@ class HotelScreen extends StatelessWidget {
                 height: 300,
                 fit: BoxFit.cover,
               ),
-              Positioned(
+              const Positioned(
                   bottom: 20,
                   left: 30,
                   child: Column(
@@ -53,7 +53,7 @@ class HotelScreen extends StatelessWidget {
                       )
                     ],
                   )),
-              Positioned(
+              const Positioned(
                 right: 30,
                 bottom: 20,
                 child: Icon(
@@ -66,7 +66,7 @@ class HotelScreen extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             height: 150,
             child: Column(
               children: [
@@ -80,7 +80,7 @@ class HotelScreen extends StatelessWidget {
                       itemCount: 5,
                       itemSize: 25,
                       itemPadding: const EdgeInsets.symmetric(horizontal: 4.0),
-                      itemBuilder: (context, _) => Icon(
+                      itemBuilder: (context, _) => const Icon(
                         Icons.star,
                         color: Color(0xFFFF4080),
                       ),
@@ -89,7 +89,7 @@ class HotelScreen extends StatelessWidget {
                       },
                     ),
                     const Spacer(),
-                    Text(
+                    const Text(
                       '\$200',
                       style:
                           TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -100,27 +100,27 @@ class HotelScreen extends StatelessWidget {
                 TextButton(
                     style: TextButton.styleFrom(backgroundColor: Colors.purple),
                     onPressed: () {},
-                    child: Padding(
+                    child: const Padding(
                         padding:
                             EdgeInsets.symmetric(horizontal: 50, vertical: 8),
-                        child: const Text(
+                        child: Text(
                           'Book Now',
                           style: TextStyle(color: Colors.white),
                         )))
               ],
             ),
           ),
-          Padding(
+          const Padding(
             padding: EdgeInsets.only(left: 10, right: 10),
             child: Text(
               'Ramadan Plaza Palm Grove',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
-          Padding(
+          const Padding(
             padding: EdgeInsets.symmetric(horizontal: 10),
             child: Text(
               'Celebrate business success at the Crowne Plaza Kochi with a touch of leisure and panoramic views of backwaters and exquisite cuisine combined with rejuvenation at our Aira Spa.Crowne Plaza Kochi is ideally located on the new business district of the city NH 47 Bypass and provides easy access to Info Park Kakkanad, Cochin Special Economic Zone, M.G. Road, Cochin Port, Shipyard, Naval Base, major sightseeing areas like Fort Kochi, Mattancherry and is 45 minutes away from Cochin International Airport.The hotel offers 269 spacious business rooms and suites with excellent views of the backwaters and the city. Our variety of authentic culinary outlets, extensive spa and leisure facilities, and high-tech meeting spaces that can accommodate large gatherings, all within a tranquil waterfront setting, makes Crowne Plaza Kochi the preferred international brand for business, leisure and events.',
