@@ -98,7 +98,8 @@ class HotelScreen extends StatelessWidget {
                 ),
                 const Spacer(),
                 TextButton(
-                    style: TextButton.styleFrom(backgroundColor: Colors.purple),
+                    style: TextButton.styleFrom(
+                        backgroundColor: const Color(0xFFFF4080)),
                     onPressed: () {},
                     child: const Padding(
                         padding:

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel_ui/Hotel_screen.dart';
+import 'package:profile_ui2/profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HotelScreen(),
+    return MaterialApp(
+      home: Profile(),
     );
   }
 }
