@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/grid_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/grid_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/grid_ui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/whatsapp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/whatsapp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/whatsapp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/music_ui1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/music_ui1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/music_ui1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/contact/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/contact/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/contact/build" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_ui2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_ui2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_ui2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/hotel_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/hotel_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/hotel_ui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/login/build" />
+      <excludeFolder url="file://$MODULE_DIR$/login/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/login/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/list_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/list_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/list_ui/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
