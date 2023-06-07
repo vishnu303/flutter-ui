@@ -85,7 +85,7 @@ class HotelScreen extends StatelessWidget {
                         color: Color(0xFFFF4080),
                       ),
                       onRatingUpdate: (rating) {
-                        print(rating);
+                        debugPrint(rating.toString());
                       },
                     ),
                     const Spacer(),
