@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:profile_ui2/profile.dart';
+import 'package:tourism_ui/home.dart';
+import 'package:tourism_ui/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,8 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Profile(),
+    return MaterialApp(
+      home: Login(),
     );
   }
 }
