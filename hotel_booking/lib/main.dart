@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tourism_ui/home.dart';
-
-import 'package:tourism_ui/login.dart';
+import 'package:hotel_booking/home.dart';
 
 void main() {
   runApp(const MyApp());
