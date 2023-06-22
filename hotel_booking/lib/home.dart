@@ -44,11 +44,11 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(80),
+        preferredSize: const Size.fromHeight(80),
         child: AppBar(
           backgroundColor: Colors.white,
           elevation: 0,
-          title: Column(
+          title: const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
@@ -69,7 +69,7 @@ class Home extends StatelessWidget {
           ),
           actions: [
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
               child: Image.network(
                 'https://images.pexels.com/photos/1699159/pexels-photo-1699159.jpeg',
                 height: 50,
@@ -81,13 +81,13 @@ class Home extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
-        physics: ClampingScrollPhysics(),
+        physics: const ClampingScrollPhysics(),
         child: Padding(
-          padding: EdgeInsets.only(left: 10),
+          padding: const EdgeInsets.only(left: 10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Padding(
+              const Padding(
                 padding: EdgeInsets.all(10),
                 child: SearchBar(
                   leading: Icon(
@@ -97,7 +97,7 @@ class Home extends StatelessWidget {
                   hintText: 'Search..',
                 ),
               ),
-              Padding(
+              const Padding(
                   padding: EdgeInsets.symmetric(vertical: 20),
                   child: Text(
                     'Popular Hotel',
@@ -106,7 +106,7 @@ class Home extends StatelessWidget {
               PopularList(
                 hotel: hotelDetails,
               ),
-              Padding(
+              const Padding(
                   padding: EdgeInsets.symmetric(vertical: 20),
                   child: Text(
                     'Hotel Packages',
