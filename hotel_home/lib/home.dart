@@ -104,7 +104,7 @@ class HotelList extends StatelessWidget {
       'address': 'Kochi, kerala',
       'reviewCount': 130,
       'price': 15,
-      'imgUrl ':
+      'imgUrl':
           'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     }
   ];
@@ -124,7 +124,7 @@ class HotelList extends StatelessWidget {
             child: Column(
               children: [
                 Image.network(
-                  'https://images.pexels.com/photos/1861153/pexels-photo-1861153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+                  details[index]['imgUrl'],
                   height: 200,
                   width: double.infinity,
                   fit: BoxFit.cover,
